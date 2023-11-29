@@ -22,6 +22,7 @@ jobs:
         with:
           node-version: '21'
 
+      # lerna version --no-push
       - env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -32,9 +33,9 @@ jobs:
           npm install
 
           if [ ${{ github.base_ref }} = dev ]; then
-            npx lerna version --conventional-commits --conventional-prerelease --preid beta --yes
+            npx lerna version --conventional-commits --changelog-preset conventionalcommits --conventional-prerelease --preid beta --yes
           else
-            npx lerna version --conventional-commits --conventional-graduate --yes
+            npx lerna version --conventional-commits --changelog-preset conventionalcommits --conventional-graduate --yes
           fi
 
           npx lerna publish from-git --yes

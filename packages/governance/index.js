@@ -24,7 +24,7 @@ module.exports = {
     number: "13663511",
     get url() {
       return `https://find-and-update.company-information.service.gov.uk/company/${this.number}`;
-    }
+    },
   },
   vrn: {
     number: "447608178",

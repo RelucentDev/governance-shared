@@ -11,5 +11,6 @@
 module.exports = {
   name: "Relucent",
   legalName: "Relucent Ltd",
-  crn: "13663511"
+  crn: "13663511",
+  vrn: "GB447608178"
 };

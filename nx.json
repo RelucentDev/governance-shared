@@ -10,10 +10,6 @@
     },
     "lint": {
       "cache": true
-    },
-    "e2e": {
-      "cache": true
     }
-  },
-  "nxCloudAccessToken": "NGI0MGQyMmItYTQ2Ni00NzM2LTlmYmItMzMxOTA1YTQzNDBkfHJlYWQtd3JpdGU="
+  }
 }

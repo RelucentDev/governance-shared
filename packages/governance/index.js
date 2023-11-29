@@ -15,9 +15,33 @@ module.exports = {
     url: "https://relucent.dev",
   },
   github: {
-    name: "relucentdev",
+    profile: "relucentdev",
     get url() {
-      return `https://github.com/${this.name}`;
+      return `https://github.com/${this.profile}`;
+    },
+  },
+  facebook: {
+    profile: "relucent.dev",
+    get url() {
+      return `https://www.facebook.com/${this.profile}`;
+    },
+  },
+  instagram: {
+    profile: "relucent.dev",
+    get url() {
+      return `https://www.instagram.com/${this.profile}`;
+    },
+  },
+  linkedin: {
+    profile: "company/relucent",
+    get url() {
+      return `https://www.linkedin.com/${this.profile}`;
+    },
+  },
+  npm: {
+    profile: "relucent.dev",
+    get url() {
+      return `https://www.npmjs.com/org/${this.profile}`;
     },
   },
   crn: {

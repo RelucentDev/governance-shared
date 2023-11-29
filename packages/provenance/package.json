@@ -1,5 +1,5 @@
 {
-  "name": "@relucent.dev/governance",
+  "name": "@relucent.dev/provenance",
   "version": "2.2.0",
   "author": "Relucent Ltd <hello@relucent.dev>",
   "license": "LGPL-3.0-or-later",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "github",
-    "directory": "packages/governance",
+    "directory": "packages/provenance",
     "url": "https://github.com/RelucentDev/relucent-pkg"
   }
 }

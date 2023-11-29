@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.0 (2023-11-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* updates package name to `@relucent.dev/provenance`, installations should be changed accordingly
+
+### Features
+
+* rename [@relucent](https://github.com/relucent).dev/governance -> [@relucent](https://github.com/relucent).dev/provenance ([1695f60](https://github.com/RelucentDev/relucent-pkg/commit/1695f605cee343da088ba46f9b93c736c3edc57d))
+
+
+
 ## [2.2.0](https://github.com/RelucentDev/relucent-pkg/compare/@relucent.dev/governance@2.1.0...@relucent.dev/governance@2.2.0) (2023-11-29)
 
 

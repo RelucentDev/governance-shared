@@ -45,4 +45,4 @@ jobs:
             npx lerna version --no-push --conventional-commits --changelog-preset conventionalcommits --yes
           fi
 
-          npx lerna publish from-git --yes
+          npx lerna publish from-package --yes

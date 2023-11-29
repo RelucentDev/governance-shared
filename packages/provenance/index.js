@@ -11,6 +11,8 @@
 module.exports = {
   name: "Relucent",
   legalName: "Relucent Ltd",
+  emailAddress: "hello@relucent.dev",
+  telephoneNumber: "+447470917011",
   website: {
     url: "https://relucent.dev",
   },

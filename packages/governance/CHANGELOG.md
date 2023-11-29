@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.0](https://github.com/RelucentDev/relucent-pkg/compare/@relucent.dev/governance@1.1.0...@relucent.dev/governance@2.0.0) (2023-11-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* replaces single string export with object
+
+### Code Refactoring
+
+* adjust data structure exported ([af00b1f](https://github.com/RelucentDev/relucent-pkg/commit/af00b1f212d140d2972aeb964cdf940bcd312711))
+
+
+
 ## [1.1.0](https://github.com/RelucentDev/relucent-pkg/compare/@relucent.dev/governance@1.0.2...@relucent.dev/governance@1.1.0) (2023-11-29)
 
 

@@ -2,7 +2,7 @@
   "name": "@relucent.dev/governance",
   "version": "1.0.2",
   "author": "Relucent Ltd <hello@relucent.dev>",
-  "license": "ISC",
+  "license": "LGPL-3.0-or-later",
   "publishConfig": {
     "access": "public",
     "provenance": true

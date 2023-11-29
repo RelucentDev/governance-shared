@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.0](https://github.com/RelucentDev/relucent-pkg/compare/@relucent.dev/governance@2.1.0...@relucent.dev/governance@2.2.0) (2023-11-29)
+
+
+### Features
+
+* add GitHub linking ([bb6286c](https://github.com/RelucentDev/relucent-pkg/commit/bb6286cea38887734a82832646656901be46aff2))
+
+
+
 ## [2.1.0](https://github.com/RelucentDev/relucent-pkg/compare/@relucent.dev/governance@2.0.1...@relucent.dev/governance@2.1.0) (2023-11-29)
 
 

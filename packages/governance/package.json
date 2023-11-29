@@ -2,5 +2,9 @@
   "name": "@relucent.dev/governance",
   "version": "1.0.1",
   "author": "Relucent Ltd <hello@relucent.dev>",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
 }

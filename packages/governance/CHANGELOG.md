@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.0](https://github.com/RelucentDev/relucent-pkg/compare/@relucent.dev/governance@2.0.1...@relucent.dev/governance@2.1.0) (2023-11-29)
+
+
+### Features
+
+* add CRN to exported governance values ([22afdbe](https://github.com/RelucentDev/relucent-pkg/commit/22afdbeb7a51704b58d9dd0bdfba4dc768ac9299))
+* add globalisation distinction for VRN ([e334f6d](https://github.com/RelucentDev/relucent-pkg/commit/e334f6dea7e44329504994d4eef99b15c039d2fc))
+* add url ([037ca63](https://github.com/RelucentDev/relucent-pkg/commit/037ca6321723bdc4d91b48480035b3507936dabf))
+* introduce crn.url ([1085db6](https://github.com/RelucentDev/relucent-pkg/commit/1085db68d0b99ba5547912bdc57c5c8459f0e3d3))
+* introduce VRN as exported value ([89185cb](https://github.com/RelucentDev/relucent-pkg/commit/89185cbd71e4e137b833f9ab0218025cc72529f3))
+
+
+
 ## [2.0.1](https://github.com/RelucentDev/relucent-pkg/compare/@relucent.dev/governance@2.0.0...@relucent.dev/governance@2.0.1) (2023-11-29)
 
 

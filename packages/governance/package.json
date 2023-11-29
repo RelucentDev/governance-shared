@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "author": "Relucent Ltd <hello@relucent.dev>",
   "license": "LGPL-3.0-or-later",
+  "main": "index.js",
   "publishConfig": {
     "access": "public",
     "provenance": true

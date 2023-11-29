@@ -8,6 +8,10 @@
     "access": "public",
     "provenance": true
   },
+  "homepage": "https://relucent.dev",
+  "bugs": {
+    "url": "https://github.com/RelucentDev/relucent-pkg/issues"
+  },
   "repository": {
     "type": "github",
     "directory": "packages/provenance",

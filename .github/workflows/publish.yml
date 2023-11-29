@@ -38,11 +38,11 @@ jobs:
           npm ci
 
           if [ "${{ github.base_ref }}" = "dev" ]; then
-            npx lerna version --conventional-commits --changelog-preset conventionalcommits --conventional-prerelease --preid beta --yes
+            npx lerna version --no-git-tag-version --conventional-commits --changelog-preset conventionalcommits --conventional-prerelease --preid beta --yes
           elif [ "${{ github.event.pull_request.merged }}" = "true" ]; then
-            npx lerna version --conventional-commits --changelog-preset conventionalcommits --conventional-graduate --yes
+            npx lerna version --no-git-tag-version --conventional-commits --changelog-preset conventionalcommits --conventional-graduate --yes
           else
-            npx lerna version --conventional-commits --changelog-preset conventionalcommits --yes
+            npx lerna version --no-git-tag-version --conventional-commits --changelog-preset conventionalcommits --yes
           fi
 
           npx lerna publish from-git --yes

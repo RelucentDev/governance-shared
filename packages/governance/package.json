@@ -7,5 +7,10 @@
   "publishConfig": {
     "access": "public",
     "provenance": true
+  },
+  "repository": {
+    "type": "github",
+    "directory": "packages/governance",
+    "url": "https://github.com/RelucentDev/relucent-pkg"
   }
 }

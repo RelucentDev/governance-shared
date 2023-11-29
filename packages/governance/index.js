@@ -11,6 +11,7 @@
 module.exports = {
   name: "Relucent",
   legalName: "Relucent Ltd",
+  url: "https://relucent.dev",
   crn: {
     number: "13663511",
     get url() {

@@ -11,7 +11,15 @@
 module.exports = {
   name: "Relucent",
   legalName: "Relucent Ltd",
-  url: "https://relucent.dev",
+  website: {
+    url: "https://relucent.dev",
+  },
+  github: {
+    name: "relucentdev",
+    get url() {
+      return `https://github.com/${this.name}`;
+    },
+  },
   crn: {
     number: "13663511",
     get url() {

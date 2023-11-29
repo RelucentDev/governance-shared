@@ -18,6 +18,9 @@ module.exports = {
     }
   },
   vrn: {
-    number: "GB447608178"
+    number: "447608178",
+    get global() {
+      return `GB${this.number}`;
+    },
   },
 };

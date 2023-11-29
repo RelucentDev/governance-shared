@@ -8,4 +8,7 @@
  * @see       https://relucent.dev
  */
 
-module.exports = "(c) Relucent Ltd";
+module.exports = {
+  name: "Relucent",
+  legalName: "Relucent Ltd",
+};

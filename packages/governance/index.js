@@ -11,6 +11,13 @@
 module.exports = {
   name: "Relucent",
   legalName: "Relucent Ltd",
-  crn: "13663511",
-  vrn: "GB447608178"
+  crn: {
+    number: "13663511",
+    get url() {
+      return `https://find-and-update.company-information.service.gov.uk/company/${this.number}`;
+    }
+  },
+  vrn: {
+    number: "GB447608178"
+  },
 };

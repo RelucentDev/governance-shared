@@ -13,6 +13,18 @@ module.exports = {
   legalName: "Relucent Ltd",
   emailAddress: "hello@relucent.dev",
   telephoneNumber: "+447470917011",
+  crn: {
+    number: "13663511",
+    get url() {
+      return `https://find-and-update.company-information.service.gov.uk/company/${this.number}`;
+    },
+  },
+  vrn: {
+    number: "447608178",
+    get global() {
+      return `GB${this.number}`;
+    },
+  },
   website: {
     url: "https://relucent.dev",
   },
@@ -44,18 +56,6 @@ module.exports = {
     profile: "relucent.dev",
     get url() {
       return `https://www.npmjs.com/org/${this.profile}`;
-    },
-  },
-  crn: {
-    number: "13663511",
-    get url() {
-      return `https://find-and-update.company-information.service.gov.uk/company/${this.number}`;
-    },
-  },
-  vrn: {
-    number: "447608178",
-    get global() {
-      return `GB${this.number}`;
     },
   },
 };

@@ -1,6 +1,6 @@
 {
   "name": "@relucent.dev/provenance",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Relucent Ltd <hello@relucent.dev>",
   "license": "LGPL-3.0-or-later",
   "main": "src/index.js",

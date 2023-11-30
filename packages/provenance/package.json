@@ -1,6 +1,18 @@
 {
   "name": "@relucent.dev/provenance",
-  "version": "0.1.6",
+  "version": "0.1.7",
+  "author": "Relucent Ltd <hello@relucent.dev>",
+  "license": "LGPL-3.0-or-later",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "homepage": "https://relucent.dev",
+  "bugs": {
+    "url": "https://github.com/RelucentDev/governance-shared/issues"
+  },
   "repository": {
     "type": "github",
     "directory": "packages/provenance",

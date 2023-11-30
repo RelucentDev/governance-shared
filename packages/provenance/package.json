@@ -1,16 +1,12 @@
 {
   "name": "@relucent.dev/provenance",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "repository": {
     "type": "github",
     "directory": "packages/provenance",
     "url": "https://github.com/RelucentDev/governance"
   },
   "homepage": "https://relucent.dev",
-  "homepage": "https://relucent.dev",
-  "bugs": {
-    "url": "https://github.com/RelucentDev/governance/issues"
-  },
   "bugs": {
     "url": "https://github.com/RelucentDev/governance/issues"
   },

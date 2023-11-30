@@ -7,10 +7,6 @@
     "url": "git+ssh://git@github.com/RelucentDev/governance-shared.git",
     "directory": "packages/eslint-config"
   },
-  "publishConfig": {
-    "access": "public",
-    "provenance": true
-  },
   "homepage": "https://relucent.dev",
   "bugs": {
     "url": "https://github.com/RelucentDev/governance-shared/issues"
@@ -58,5 +54,9 @@
     "eslint": "^8.54.0",
     "semantic-release": "^22.0.8",
     "typescript": "^5.3.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   }
 }

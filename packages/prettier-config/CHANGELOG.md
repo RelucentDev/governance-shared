@@ -7,21 +7,12 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @relucent.dev/prettier-config
 
-
-
-
-
 ## [1.3.1](https://github.com/RelucentDev/governance-shared/compare/@relucent.dev/prettier-config@1.3.0...@relucent.dev/prettier-config@1.3.1) (2023-11-30)
 
 **Note:** Version bump only for package @relucent.dev/prettier-config
 
-
-
-
-
 ## 1.3.0 (2023-11-30)
-
 
 ### Features
 
-* migrate [@relucent](https://github.com/relucent).dev/prettier-config ([73c1844](https://github.com/RelucentDev/relucent-pkg/commit/73c1844648e8b71379cf5e9116bab03d1f9a0508))
+- migrate [@relucent](https://github.com/relucent).dev/prettier-config ([73c1844](https://github.com/RelucentDev/relucent-pkg/commit/73c1844648e8b71379cf5e9116bab03d1f9a0508))

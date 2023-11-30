@@ -3,8 +3,7 @@
     "",
     "<THIRD_PARTY_MODULES>",
     "^[./]",
-    "^@/src/(.*)$",
-    "^@/__tests__/(.*)$",
+    "^@/(.*)$",
     "<THIRD_PARTY_TS_TYPES>",
     "<TS_TYPES>^[./]"
   ],

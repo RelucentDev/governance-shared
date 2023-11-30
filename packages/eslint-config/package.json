@@ -1,6 +1,6 @@
 {
   "name": "@relucent.dev/eslint-config",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "Relucent's Shared ESLint Config",
   "repository": {
     "type": "git",

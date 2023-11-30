@@ -2,7 +2,9 @@
   "name": "@relucent.dev/pkg",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "nx run-many --target=build --all"
+  },
   "private": true,
   "devDependencies": {
     "@nx/js": "17.1.3",

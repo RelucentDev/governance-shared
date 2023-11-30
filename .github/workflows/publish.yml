@@ -26,7 +26,6 @@ jobs:
           node-version: '21.x'
           registry-url: 'https://registry.npmjs.org'
 
-      # lerna version --no-push
       - env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -36,6 +35,7 @@ jobs:
           git config user.email "${{ github.actor}}@users.noreply.github.com"
 
           npm ci
+          npm run build
 
           if [ "${{ github.base_ref }}" = "dev" ]; then
             npx lerna version --conventional-commits --changelog-preset conventionalcommits --conventional-prerelease --preid beta --yes

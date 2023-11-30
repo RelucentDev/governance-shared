@@ -7,33 +7,18 @@
     "url": "git+ssh://git@github.com/RelucentDev/governance-shared.git",
     "directory": "packages/eslint-config"
   },
-  "publishConfig": {
-    "access": "public",
-    "provenance": true
-  },
   "homepage": "https://relucent.dev",
   "bugs": {
     "url": "https://github.com/RelucentDev/governance-shared/issues"
   },
   "author": "Relucent Ltd <hello@relucent.dev>",
   "license": "LGPL-3.0-or-later",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "src"
-  ],
+  "main": ".prettierrc.json",
   "keywords": [
     "prettier",
     "relucent",
     "prettier-config"
   ],
-  "scripts": {
-    "build": "npm run build:swc && npm run build:types",
-    "build:swc": "swc ./src/ -d ./dist/",
-    "build:types": "tsc --emitDeclarationOnly",
-    "lint": "eslint ."
-  },
   "peerDependencies": {
     "prettier": "^3.1.0"
   },
@@ -48,5 +33,9 @@
     "prettier": "^3.1.0",
     "semantic-release": "^22.0.8",
     "typescript": "^5.3.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   }
 }

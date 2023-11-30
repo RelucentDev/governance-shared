@@ -8,6 +8,12 @@
  * @see       https://relucent.dev
  */
 
+/**
+ * Relucent Provenance.
+ * Company and ownership information.
+ *
+ * @since 1.0.0
+ */
 module.exports = {
   /**
    * Company Name.

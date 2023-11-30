@@ -7,10 +7,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @relucent.dev/prettier-config
 
-
-
-
-
 ## [1.3.2](https://github.com/RelucentDev/governance-shared/compare/@relucent.dev/prettier-config@1.3.1...@relucent.dev/prettier-config@1.3.2) (2023-11-30)
 
 **Note:** Version bump only for package @relucent.dev/prettier-config

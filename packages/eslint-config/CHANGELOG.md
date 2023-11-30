@@ -7,10 +7,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @relucent.dev/eslint-config
 
-
-
-
-
 ## [1.2.3](https://github.com/RelucentDev/governance-shared/compare/@relucent.dev/eslint-config@1.2.2...@relucent.dev/eslint-config@1.2.3) (2023-11-30)
 
 **Note:** Version bump only for package @relucent.dev/eslint-config

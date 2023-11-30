@@ -4,12 +4,12 @@
   "description": "Relucent's Shared ESLint Config",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/RelucentDev/governance-shared.git",
+    "url": "git+ssh://git@github.com/RelucentDev/governance.git",
     "directory": "packages/eslint-config"
   },
   "homepage": "https://relucent.dev",
   "bugs": {
-    "url": "https://github.com/RelucentDev/governance-shared/issues"
+    "url": "https://github.com/RelucentDev/governance/issues"
   },
   "author": "Relucent Ltd <hello@relucent.dev>",
   "license": "LGPL-3.0-or-later",

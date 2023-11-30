@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.10](https://github.com/RelucentDev/governance/compare/@relucent.dev/provenance@0.1.9...@relucent.dev/provenance@0.1.10) (2023-11-30)
+
+**Note:** Version bump only for package @relucent.dev/provenance
+
 ## [0.1.9](https://github.com/RelucentDev/governance/compare/@relucent.dev/provenance@0.1.8...@relucent.dev/provenance@0.1.9) (2023-11-30)
 
 **Note:** Version bump only for package @relucent.dev/provenance

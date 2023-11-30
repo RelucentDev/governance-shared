@@ -26,17 +26,21 @@ jobs:
           node-version: "21.x"
           registry-url: "https://registry.npmjs.org"
 
+      - run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor}}@users.noreply.github.com"
+
+      - run: |
+          npm ci
+
+      - run: |
+          npm run build
+
       - env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-          git config user.name "${{ github.actor }}"
-          git config user.email "${{ github.actor}}@users.noreply.github.com"
-
-          npm ci
-          npm run build
-
           if [ "${{ github.base_ref }}" = "dev" ]; then
             npx lerna version --conventional-commits --changelog-preset conventionalcommits --conventional-prerelease --preid beta --yes
           elif [ "${{ github.event.pull_request.merged }}" = "true" ]; then

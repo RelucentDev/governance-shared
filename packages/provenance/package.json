@@ -10,11 +10,11 @@
   },
   "homepage": "https://relucent.dev",
   "bugs": {
-    "url": "https://github.com/RelucentDev/relucent-pkg/issues"
+    "url": "https://github.com/RelucentDev/governance-shared/issues"
   },
   "repository": {
     "type": "github",
     "directory": "packages/provenance",
-    "url": "https://github.com/RelucentDev/relucent-pkg"
+    "url": "https://github.com/RelucentDev/governance-shared"
   }
 }

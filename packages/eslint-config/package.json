@@ -4,7 +4,7 @@
   "description": "Relucent's Shared ESLint Config",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/RelucentDev/relucent-pkg.git",
+    "url": "git+ssh://git@github.com/RelucentDev/governance-shared.git",
     "directory": "packages/eslint-config"
   },
   "publishConfig": {
@@ -13,7 +13,7 @@
   },
   "homepage": "https://relucent.dev",
   "bugs": {
-    "url": "https://github.com/RelucentDev/relucent-pkg/issues"
+    "url": "https://github.com/RelucentDev/governance-shared/issues"
   },
   "author": "Relucent Ltd <hello@relucent.dev>",
   "license": "LGPL-3.0-or-later",

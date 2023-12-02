@@ -31,7 +31,13 @@ jobs:
           git config user.email "${{ github.actor}}@users.noreply.github.com"
 
       - run: |
-          npm install
+          npm ci
+
+      - uses: nrwl/nx-set-shas@v3
+      # This line is needed for nx affected to work when CI is running on a PR
+      - run: git branch --track main origin/main
+
+      - run: |
           npm run build
 
       - env:

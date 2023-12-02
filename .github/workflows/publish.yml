@@ -33,9 +33,7 @@ jobs:
       - run: |
           npm ci
           npm install --global nx
-
-      - run: |
-          npx nx run-many --target=build --all
+          npm run build
 
       - env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -15,7 +15,7 @@
     "lint:cspell": "cspell .",
     "lint:jscpd": "jscpd --config .jscpd.json",
     "lint:markdown-link-check": "find . -name \\*.md -not -wholename '**/node_modules/*' -print0 | xargs -0 -n1 markdown-link-check --config .mlc_config.json",
-    "lint:markdownlint": "markdownlint '**/*.md' --ignore node_modules"
+    "lint:markdownlint": "markdownlint '**/*.md' --ignore node_modules --ignore '**/CHANGELOG.md' --ignore '**/LICENSE.md'"
   },
   "devDependencies": {
     "@nx/js": "17.1.3",

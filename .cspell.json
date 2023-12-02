@@ -13,11 +13,21 @@
   ],
   "words": [
     "Relucent",
+    "relucentdev",
     "noncommercially",
     "favor",
     "defenses",
     "domwebber",
     "disposability"
   ],
-  "ignoreWords": ["wholename", "gaiasky", "trivago", "goldbergyoni"]
+  "ignoreWords": [
+    "wholename",
+    "gaiasky",
+    "trivago",
+    "goldbergyoni",
+    "xcanchal"
+  ],
+  "ignorePaths": [
+    "**/package*.json"
+  ]
 }

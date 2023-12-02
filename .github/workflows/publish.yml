@@ -31,8 +31,7 @@ jobs:
           git config user.email "${{ github.actor}}@users.noreply.github.com"
 
       - run: |
-          npm ci
-          npm install --global nx
+          npm install
           npm run build
 
       - env:

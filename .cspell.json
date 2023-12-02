@@ -27,7 +27,5 @@
     "goldbergyoni",
     "xcanchal"
   ],
-  "ignorePaths": [
-    "**/package*.json"
-  ]
+  "ignorePaths": ["**/package*.json"]
 }

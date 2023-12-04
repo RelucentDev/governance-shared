@@ -15,11 +15,11 @@ or
 
 ```js
 // .prettierrc.mjs
-import relucent from '@relucent/prettier-config';
+import relucent from "@relucent/prettier-config";
 
 export default {
-    ...relucent,
-    // Your project specific config here
+  ...relucent,
+  // Your project specific config here
 };
 ```
 

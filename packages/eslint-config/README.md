@@ -10,15 +10,15 @@ This package uses the ESLint Flag Config type.
 
 ```js
 // eslint.config.js:
-import relucent from '@relucent/eslint-config';
+import relucent from "@relucent/eslint-config";
 
 // Export your ESLint Config
 export default [
-    relucent,
-    {
-        // Your project specific config here
-    },
-]
+  relucent,
+  {
+    // Your project specific config here
+  },
+];
 ```
 
 ## License

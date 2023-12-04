@@ -45,10 +45,10 @@ GNU LGPLv3 &copy; 2023 Relucent Ltd.
 
 ```js
 /**
- * Relucent Standards.
+ * Relucent Governance.
  *
  * @since     1.0.0
- * @module    Relucent\Standards
+ * @module    Relucent\Governance
  * @copyright 2023 Relucent Ltd
  * @author    Relucent Ltd <hello@relucent.dev>
  * @see       https://relucent.dev
@@ -56,15 +56,15 @@ GNU LGPLv3 &copy; 2023 Relucent Ltd.
 ```
 
 ```css
-/*! Relucent Standards | (c) 2023 Relucent Ltd | https://relucent.dev */
+/*! Relucent Governance | (c) 2023 Relucent Ltd | https://relucent.dev */
 ```
 
 ```bash
-# Relucent Standards.
+# Relucent Governance.
 # (c) 2023 Relucent Ltd
 # https://relucent.dev
 ```
 
 ```html
-<!-- Relucent Standards | (c) 2023 Relucent Ltd | https://relucent.dev -->
+<!-- Relucent Governance | (c) 2023 Relucent Ltd | https://relucent.dev -->
 ```

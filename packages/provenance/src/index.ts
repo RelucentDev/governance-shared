@@ -114,7 +114,7 @@ const provenance = {
    * @since 1.0.0
    */
   linkedin: {
-    profile: "company/relucent",
+    profile: "company/relucent-dev",
     get url() {
       return `https://www.linkedin.com/${this.profile}`;
     },

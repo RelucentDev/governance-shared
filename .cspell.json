@@ -25,7 +25,10 @@
     "gaiasky",
     "trivago",
     "goldbergyoni",
-    "xcanchal"
+    "xcanchal",
+    "tomoyukiaota"
   ],
-  "ignorePaths": ["**/package*.json"]
+  "ignorePaths": [
+    "**/package*.json"
+  ]
 }

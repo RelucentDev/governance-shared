@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.15](https://github.com/RelucentDev/governance/compare/@relucent.dev/provenance@0.1.14...@relucent.dev/provenance@0.1.15) (2023-12-04)
+
+### Bug Fixes
+
+- correct LinkedIn profile naming ([2c4be06](https://github.com/RelucentDev/governance/commit/2c4be06b8084eaebf35f471acbf39a48a8df0e51))
+
 ## [0.1.14](https://github.com/RelucentDev/governance/compare/@relucent.dev/provenance@0.1.13...@relucent.dev/provenance@0.1.14) (2023-12-04)
 
 **Note:** Version bump only for package @relucent.dev/provenance

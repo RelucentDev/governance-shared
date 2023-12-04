@@ -14,7 +14,7 @@
  *
  * @since 1.0.0
  */
-module.exports = {
+const provenance = {
   /**
    * Company Name.
    *
@@ -132,3 +132,5 @@ module.exports = {
     },
   },
 };
+
+export default provenance;

@@ -28,7 +28,5 @@
     "xcanchal",
     "tomoyukiaota"
   ],
-  "ignorePaths": [
-    "**/package*.json"
-  ]
+  "ignorePaths": ["**/package*.json"]
 }

@@ -56,7 +56,3 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ## [0.1.3](https://github.com/RelucentDev/governance/compare/@relucent.dev/provenance@0.1.2...@relucent.dev/provenance@0.1.3) (2023-11-29)
 
 **Note:** Version bump only for package @relucent.dev/provenance
-
-## [0.1.2](https://github.com/RelucentDev/governance/compare/@relucent.dev/provenance@0.1.1...@relucent.dev/provenance@0.1.2) (2023-11-29)
-
-**Note:** Version bump only for package @relucent.dev/provenance

@@ -1,6 +1,6 @@
 {
   "name": "@relucent.dev/provenance",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "repository": {
     "type": "github",
     "directory": "packages/provenance",

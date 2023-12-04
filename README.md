@@ -18,11 +18,11 @@ practices, resources, and information.
 
 > See [`docs/`](docs/) for resources, standards, and best practices information.
 
-| Package                             | Version                                  |
-| ----------------------------------- | ---------------------------------------- |
-| [`@relucent.dev/eslint-config`][]   | ![@relucent.dev/eslint-config version]   |
+|                                     |                                          |
+| :---------------------------------- | ---------------------------------------: |
+| [`@relucent.dev/eslint-config`][]   |   ![@relucent.dev/eslint-config version] |
 | [`@relucent.dev/prettier-config`][] | ![@relucent.dev/prettier-config version] |
-| [`@relucent.dev/provenance`][]      | ![@relucent.dev/provenance version]      |
+| [`@relucent.dev/provenance`][]      |      ![@relucent.dev/provenance version] |
 
 [@relucent.dev/eslint-config version]: https://img.shields.io/npm/v/%40relucent.dev/eslint-config
 [`@relucent.dev/eslint-config`]: https://npmjs.com/@relucent.dev/eslint-config

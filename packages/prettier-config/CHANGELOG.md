@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.5](https://github.com/RelucentDev/governance/compare/@relucent.dev/prettier-config@1.4.4...@relucent.dev/prettier-config@1.4.5) (2023-12-04)
+
+**Note:** Version bump only for package @relucent.dev/prettier-config
+
 ## [1.4.4](https://github.com/RelucentDev/governance/compare/@relucent.dev/prettier-config@1.4.3...@relucent.dev/prettier-config@1.4.4) (2023-11-30)
 
 **Note:** Version bump only for package @relucent.dev/prettier-config

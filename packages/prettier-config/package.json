@@ -1,6 +1,6 @@
 {
   "name": "@relucent.dev/prettier-config",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "Relucent's Shared Prettier Config",
   "repository": {
     "type": "git",

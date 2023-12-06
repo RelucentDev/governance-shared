@@ -1,5 +1,5 @@
 * @domwebber
 
-.gitlab/workflows @domwebber
+.github/workflows @domwebber
 packages/eslint-config @domwebber
 packages/provenance @domwebber

@@ -15,7 +15,7 @@ or
 
 ```js
 // .prettierrc.mjs
-import relucent from "@relucent/prettier-config";
+import relucent from "@relucent/prettier-config" assert { type: "json" };
 
 export default {
   ...relucent,

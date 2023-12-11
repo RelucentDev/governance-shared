@@ -17,11 +17,11 @@ point for understanding the most common security risks in web applications.
 The [SANS Top 25](https://www.sans.org/top25-software-errors/) is a great
 starting point for understanding the most common software errors.
 
-### 1.3. Directory Structure
+### 1.4. Directory Structure
 
 See [this StackExchange answer](https://softwareengineering.stackexchange.com/a/392461).
 
-### 1.4. File Signature Comments
+### 1.5. File Signature Comments
 
 Supporting clear project authorship, we include file signature comments where
 possible to help identify the project, file, and authorship.

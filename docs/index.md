@@ -7,11 +7,16 @@
 The principles set out by the [Twelve Factor App](https://12factor.net/) are a
 great starting point for building modern, scalable, maintainable applications.
 
-### 1.2 - Directory Structure
+### 1.2. OWASP Top 10
+
+The [OWASP Top 10](https://owasp.org/www-project-top-ten/) is a great starting
+point for understanding the most common security risks in web applications.
+
+### 1.3. Directory Structure
 
 See [this StackExchange answer](https://softwareengineering.stackexchange.com/a/392461).
 
-### 1.3. File Signature Comments
+### 1.4. File Signature Comments
 
 Supporting clear project authorship, we include file signature comments where
 possible to help identify the project, file, and authorship.

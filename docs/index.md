@@ -21,7 +21,37 @@ starting point for understanding the most common software errors.
 
 See [this StackExchange answer](https://softwareengineering.stackexchange.com/a/392461).
 
-### 1.5. `ACKNOWLEDGEMENTS.md`
+### 1.5. Scripts (`package.json`, `composer.json`, etc.)
+
+We use an aliasing convention for scripts in `package.json` and `composer.json`
+files. This allows us to use the same script names across projects, and to
+easily identify the purpose of each script.
+
+```jsonc
+{
+  "scripts": {
+    // use `lint` as an alias for linting scripts
+    "lint": "npm-run-all prettier",
+
+    // use `lint:dev` as an alias for linting scripts in development
+    "lint:dev": "npm-run-all prettier:dev",
+
+    // use `prettier` as an alias for running prettier in check mode
+    "prettier": "prettier --check .",
+
+    // use `prettier:dev` as an alias for running prettier in write mode
+    "prettier:dev": "prettier --write .",
+
+    // using naming a naming convention in the format of
+    "action:environment": "command",
+
+    // and using aliasing to create a shorthands for lifecycle scripts
+    "build:environment": "npm-run-all action:environment",
+  }
+}
+```
+
+### 1.6. `ACKNOWLEDGEMENTS.md`
 
 We include an `ACKNOWLEDGEMENTS.md` file in the root of each project to
 acknowledge the contributions of others, and to provide a list of sources of
@@ -55,7 +85,7 @@ inspiration and guidance.
 [another resource]: https://example.com
 ```
 
-### 1.6. File Signature Comments
+### 1.7. File Signature Comments
 
 Supporting clear project authorship, we include file signature comments where
 possible to help identify the project, file, and authorship.

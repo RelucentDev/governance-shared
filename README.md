@@ -18,6 +18,22 @@ practices, resources, and information.
 
 > See [`docs/`](docs/) for resources, standards, and best practices information.
 
+|                                     |                                            |
+| :---------------------------------- | -----------------------------------------: |
+| [`@relucent.dev/prettier-config`][] | ![@relucent.dev/prettier-config version][] |
+| [`@relucent.dev/eslint-config`][]   |   ![@relucent.dev/eslint-config version][] |
+| [`@relucent.dev/provenance`][]      |      ![@relucent.dev/provenance version][] |
+| [`@relucent.dev/logo`][]            |            ![@relucent.dev/logo version][] |
+
+[`@relucent.dev/prettier-config`]: https://npmjs.com/@relucent.dev/prettier-config
+[@relucent.dev/prettier-config version]: https://img.shields.io/npm/v/%40relucent.dev/prettier-config
+[`@relucent.dev/eslint-config`]: https://npmjs.com/@relucent.dev/eslint-config
+[@relucent.dev/eslint-config version]: https://img.shields.io/npm/v/%40relucent.dev/eslint-config
+[`@relucent.dev/provenance`]: https://npmjs.com/@relucent.dev/provenance
+[@relucent.dev/provenance version]: https://img.shields.io/npm/v/%40relucent.dev/provenance
+[`@relucent.dev/logo`]: https://npmjs.com/@relucent.dev/logo
+[@relucent.dev/logo version]: https://img.shields.io/npm/v/%40relucent.dev/logo
+
 ## License
 
 GNU LGPLv3 &copy; 2023 Relucent Ltd.

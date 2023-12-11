@@ -21,7 +21,34 @@ starting point for understanding the most common software errors.
 
 See [this StackExchange answer](https://softwareengineering.stackexchange.com/a/392461).
 
-### 1.5. File Signature Comments
+### 1.5. `ACKNOWLEDGEMENTS.md`
+
+We include an `ACKNOWLEDGEMENTS.md` file in the root of each project to
+acknowledge the contributions of others, and to provide a list of sources of
+inspiration and guidance.
+
+```markdown
+# Acknowledgements
+
+## Contributors
+
+- @domwebber
+
+## Sources
+
+- [general source][] for a reason.
+
+[general source]: https://example.com
+
+### Source Categorisation
+
+- [another source][] for another reason.
+
+[another source]: https://example.com
+
+```
+
+### 1.6. File Signature Comments
 
 Supporting clear project authorship, we include file signature comments where
 possible to help identify the project, file, and authorship.

@@ -30,10 +30,6 @@ inspiration and guidance.
 ```markdown
 # Acknowledgements
 
-## Contributors
-
-- @domwebber
-
 ## Sources
 
 - [general source][] for a reason.
@@ -46,6 +42,17 @@ inspiration and guidance.
 
 [another source]: https://example.com
 
+## Resources
+
+- [general resource][] for a reason.
+
+[general resource]: https://example.com
+
+### Resource Categorisation
+
+- [another resource][] for another reason.
+
+[another resource]: https://example.com
 ```
 
 ### 1.6. File Signature Comments

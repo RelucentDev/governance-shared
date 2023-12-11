@@ -1,10 +1,6 @@
 # Acknowledgements
 
-## Contributors
-
-- @domwebber
-
-## Sources
+## Resources
 
 - [gitignore.io][] for the `.gitignore` file.
 

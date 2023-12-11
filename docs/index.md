@@ -32,7 +32,7 @@ We use the following templates when structuring the comments:
 /**
  * Project Name.
  *
- * @since     0.0.0
+ * @since     x.x.x
  * @copyright 2023 Author/Owner
  * @author    Author <hello@example.com>
  * @see       https://example.com

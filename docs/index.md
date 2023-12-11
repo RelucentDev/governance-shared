@@ -12,6 +12,11 @@ great starting point for building modern, scalable, maintainable applications.
 The [OWASP Top 10](https://owasp.org/www-project-top-ten/) is a great starting
 point for understanding the most common security risks in web applications.
 
+### 1.3. SANS Top 25
+
+The [SANS Top 25](https://www.sans.org/top25-software-errors/) is a great
+starting point for understanding the most common software errors.
+
 ### 1.3. Directory Structure
 
 See [this StackExchange answer](https://softwareengineering.stackexchange.com/a/392461).

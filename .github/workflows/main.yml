@@ -10,5 +10,6 @@ jobs:
     secrets: inherit
 
   release:
+    needs: lint
     uses: ./.github/workflows/release.yml
     secrets: inherit

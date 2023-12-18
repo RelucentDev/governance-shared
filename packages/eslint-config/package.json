@@ -1,0 +1,67 @@
+{
+  "name": "@relucent.dev/eslint-config",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "Relucent's Shared ESLint Config",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RelucentDev/eslint-config.git"
+  },
+  "homepage": "https://github.com/RelucentDev/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/RelucentDev/eslint-config/issues"
+  },
+  "author": "Relucent Ltd <hello@relucent.dev>",
+  "license": "LGPL-3.0-or-later",
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "relucent"
+  ],
+  "scripts": {
+    "build": "npm-run-all swc tsc",
+    "lint": "npm-run-all typecheck",
+    "lint:dev": "npm-run-all typecheck",
+    "swc": "swc ./src/ -d ./dist/",
+    "tsc": "tsc --emitDeclarationOnly",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "eslint": "^8.54.0",
+    "typescript": "^5.3.2"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@eslint/js": "^8.54.0",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-jest": "^27.6.0",
+    "eslint-plugin-jsdoc": "^46.9.0"
+  },
+  "devDependencies": {
+    "@relucent.dev/prettier-config": "^2.0.1",
+    "@swc/cli": "^0.1.63",
+    "@swc/core": "^1.3.96",
+    "@types/eslint-config-prettier": "^6.11.3",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^8.54.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.3.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}

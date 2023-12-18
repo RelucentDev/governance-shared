@@ -3,16 +3,26 @@
   "version": "0.0.0",
   "license": "LGPL-3.0-or-later",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "alex": "alex .",
+    "build": "turbo run build",
+    "changeset": "changeset",
     "cspell": "cspell .",
     "jscpd": "jscpd --config .jscpd.json",
-    "lint": "npm-run-all prettier alex cspell jscpd markdownlint markdown-link-check",
-    "lint-dev": "npm-run-all prettier-dev alex cspell jscpd markdownlint markdown-link-check",
+    "lint": "npm-run-all prettier alex cspell jscpd markdownlint markdown-link-check && turbo run lint",
+    "lint:dev": "npm-run-all prettier-dev alex cspell jscpd markdownlint markdown-link-check && turbo run lint:dev",
     "markdown-link-check": "find . -name \\*.md -not -wholename '**/node_modules/*' -print0 | xargs -0 -n1 markdown-link-check --config .mlc_config.json",
     "markdownlint": "markdownlint '**/*.md' --ignore node_modules --ignore '**/CHANGELOG.md' --ignore '**/LICENSE.md'",
+    "prerelease": "npm-run-all build",
     "prettier": "prettier --check .",
-    "prettier-dev": "prettier --write ."
+    "prettier-dev": "prettier --write .",
+    "release": "changeset publish"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.27.1"
   },
   "devDependencies": {
     "@relucent.dev/prettier-config": "*",
@@ -22,6 +32,7 @@
     "markdown-link-check": "^3.11.2",
     "markdownlint-cli": "^0.37.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "^3.1.0"
+    "prettier": "^3.1.0",
+    "turbo": "^1.11.2"
   }
 }

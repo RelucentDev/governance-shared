@@ -1,0 +1,37 @@
+{
+  "name": "@relucent.dev/prettier-config",
+  "version": "2.0.1",
+  "description": "Relucent's Shared Prettier Config",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RelucentDev/prettier-config.git"
+  },
+  "homepage": "https://github.com/RelucentDev/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/RelucentDev/prettier-config/issues"
+  },
+  "author": "Relucent Ltd <hello@relucent.dev>",
+  "license": "LGPL-3.0-or-later",
+  "main": ".prettierrc.json",
+  "keywords": [
+    "prettier",
+    "relucent",
+    "prettier-config"
+  ],
+  "peerDependencies": {
+    "prettier": "^3.1.0"
+  },
+  "dependencies": {
+    "@prettier/plugin-xml": "^3.2.2",
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "prettier-plugin-pkg": "^0.18.0",
+    "prettier-plugin-sh": "^0.13.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}

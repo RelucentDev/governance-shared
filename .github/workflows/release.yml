@@ -21,6 +21,7 @@ jobs:
           key: node_modules-${{hashFiles('package-lock.json')}}
           restore-keys: node_modules-
       - run: npm clean-install
+      - run: npm audit signatures
       - uses: changesets/action@v1
         with:
           publish: npm run release

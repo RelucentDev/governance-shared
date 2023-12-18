@@ -2,11 +2,10 @@
 # (c) 2023 Relucent Ltd
 # https://relucent.dev
 
-.nx
 .env*
 
-# Created by https://www.toptal.com/developers/gitignore/api/windows,linux,macos,visualstudiocode,git,dotenv,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,macos,visualstudiocode,git,dotenv,node
+# Created by https://www.toptal.com/developers/gitignore/api/windows,linux,macos,visualstudiocode,git,dotenv,node,turbo
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,macos,visualstudiocode,git,dotenv,node,turbo
 
 ### dotenv ###
 .env
@@ -212,6 +211,10 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
+### Turbo ###
+# Turborepo task cache
+.turbo
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -257,4 +260,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,visualstudiocode,git,dotenv,node
+# End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,visualstudiocode,git,dotenv,node,turbo

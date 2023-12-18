@@ -26,7 +26,8 @@
     "trivago",
     "goldbergyoni",
     "xcanchal",
-    "tomoyukiaota"
+    "tomoyukiaota",
+    "OWASP"
   ],
   "ignorePaths": ["**/package*.json"]
 }

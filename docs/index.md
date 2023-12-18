@@ -51,6 +51,11 @@ quickly identify the purpose of each script.
 }
 ```
 
+As a quick reference, the naming follows the format of
+`<Task>(:<Scope>)*` where, unless inferred by the alias's
+naming (like in the case of `build`) the base alias (such as `lint`) should not
+write or fix anything, and should only check for errors.
+
 ### 1.6. `ACKNOWLEDGEMENTS.md`
 
 We include an `ACKNOWLEDGEMENTS.md` file in the root of each project to

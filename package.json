@@ -21,10 +21,8 @@
     "prettier-dev": "prettier --write .",
     "release": "changeset publish"
   },
-  "dependencies": {
-    "@changesets/cli": "^2.27.1"
-  },
   "devDependencies": {
+    "@changesets/cli": "^2.27.1",
     "@relucent.dev/prettier-config": "*",
     "alex": "^11.0.1",
     "cspell": "^8.1.0",

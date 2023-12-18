@@ -25,7 +25,7 @@ See [this StackExchange answer](https://softwareengineering.stackexchange.com/a/
 
 We use an aliasing convention for scripts in `package.json` and `composer.json`
 files. This allows us to use the same script names across projects, and to
-easily identify the purpose of each script.
+quickly identify the purpose of each script.
 
 ```jsonc
 {
@@ -46,7 +46,7 @@ easily identify the purpose of each script.
     "action:environment": "command",
 
     // and using aliasing to create a shorthands for lifecycle scripts
-    "build:environment": "npm-run-all action:environment",
+    "build:environment": "npm-run-all action:environment"
   }
 }
 ```
@@ -131,6 +131,6 @@ patterns.
 ### 3.1. Google Cloud Platform's Terraform Best Practices Guide
 
 [GCP's Terraform guide](https://cloud.google.com/docs/terraform/best-practices-for-terraform)
-for effective use of Terraform. GCP's guidance sets out a general style and convention for resource naming,
-module structure, and variable use, in addition to additional GCP-specific
-guidance.
+for effective use of Terraform. GCP's guidance sets out a general style and
+convention for resource naming, module structure, and variable use, in addition
+to additional GCP-specific guidance.

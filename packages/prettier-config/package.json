@@ -4,7 +4,8 @@
   "description": "Relucent's Shared Prettier Config",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/RelucentDev/governance.git"
+    "url": "git+ssh://git@github.com/RelucentDev/governance.git",
+    "directory": "packages/prettier-config"
   },
   "homepage": "https://github.com/RelucentDev/governance#readme",
   "bugs": {

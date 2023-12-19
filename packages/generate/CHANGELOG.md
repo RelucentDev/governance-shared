@@ -1,5 +1,11 @@
 # @relucent.dev/generators
 
+## 0.1.0
+
+### Minor Changes
+
+- 6c65cda: rename to `@relucent.dev/generate`
+
 ## 0.0.3
 
 ### Patch Changes

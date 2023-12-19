@@ -1,6 +1,6 @@
 {
   "name": "@relucent.dev/generate",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "type": "module",
   "description": "Useful templates and generators for Relucent projects",
   "repository": {

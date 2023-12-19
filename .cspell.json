@@ -1,6 +1,7 @@
 {
   "version": "0.2",
   "language": "en-gb",
+  "enableGlobDot": true,
   "dictionaries": [
     "softwareTerms",
     "typescript",
@@ -18,7 +19,9 @@
     "favor",
     "defenses",
     "domwebber",
-    "disposability"
+    "disposability",
+    "hashbang",
+    "typecheck"
   ],
   "ignoreWords": [
     "wholename",
@@ -29,7 +32,15 @@
     "tomoyukiaota",
     "OWASP",
     "plopfile",
-    "inquirier"
+    "inquirier",
+    "esbenp",
+    "dbaeumer"
   ],
-  "ignorePaths": ["**/package*.json"]
+  "ignorePaths": [
+    "**/package*.json",
+    "**/.git/**/*",
+    "**/.gitignore",
+    "**/.env*",
+    "!**/.env.example"
+  ]
 }

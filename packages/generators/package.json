@@ -1,0 +1,46 @@
+{
+  "name": "@relucent.dev/generators",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Useful templates for Relucent projects made with PlopJS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RelucentDev/governance.git",
+    "directory": "packages/generators"
+  },
+  "homepage": "https://github.com/RelucentDev/governance#readme",
+  "bugs": {
+    "url": "https://github.com/RelucentDev/governance/issues"
+  },
+  "author": "Relucent Ltd <hello@relucent.dev>",
+  "license": "LGPL-3.0-or-later",
+  "bin": "dist/cli.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "templates"
+  ],
+  "keywords": [
+    "relucent",
+    "plopjs",
+    "template"
+  ],
+  "scripts": {
+    "build": "npm-run-all swc tsc",
+    "lint": "npm-run-all typecheck",
+    "lint:dev": "npm-run-all typecheck",
+    "swc": "swc ./src/ -d ./dist/",
+    "tsc": "tsc --emitDeclarationOnly",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.12",
+    "minimist": "^1.2.8",
+    "node-plop": "^0.32.0",
+    "plop": "^4.0.0",
+    "pluralize": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/pluralize": "^0.0.33"
+  }
+}

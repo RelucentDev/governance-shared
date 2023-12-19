@@ -7,9 +7,9 @@
  * @see       https://relucent.dev
  */
 import minimist from "minimist";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
+import path from "path";
 import { Plop, run } from "plop";
+import { fileURLToPath } from "url";
 
 const argv = minimist(process.argv.slice(2));
 const __dirname = path.dirname(fileURLToPath(import.meta.url));

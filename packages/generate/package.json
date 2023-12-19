@@ -37,10 +37,12 @@
   "dependencies": {
     "minimist": "^1.2.8",
     "plop": "^4.0.0",
-    "pluralize": "^8.0.0"
+    "pluralize": "^8.0.0",
+    "title": "^3.5.3"
   },
   "devDependencies": {
-    "@types/pluralize": "^0.0.33"
+    "@types/pluralize": "^0.0.33",
+    "@types/title": "^3.4.3"
   },
   "publishConfig": {
     "access": "public",

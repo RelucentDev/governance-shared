@@ -2,7 +2,7 @@
 
 ![Relucent Generators Cover Image](cover.png)
 
-Shared generators for Relucent projects.
+Useful templates and generators for Relucent projects.
 
 [![@relucent.dev/generators version]][npmjs-package]
 
@@ -12,7 +12,11 @@ Shared generators for Relucent projects.
 ## Usage
 
 ```bash
-# TODO
+# Create an acknowledgements file
+npx @relucent.dev/generators acknowledgements
+
+# Optionally, install the package
+npm install @relucent.dev/generators --save-dev # or --global
 ```
 
 ## License

@@ -31,7 +31,5 @@
     "plopfile",
     "inquirier"
   ],
-  "ignorePaths": [
-    "**/package*.json"
-  ]
+  "ignorePaths": ["**/package*.json"]
 }

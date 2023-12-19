@@ -6,7 +6,7 @@
  * @author    Relucent Ltd <hello@relucent.dev>
  * @see       https://relucent.dev
  */
-import { NodePlopAPI } from "node-plop";
+import { NodePlopAPI } from "plop";
 
 export default function acknowledgements(plop: NodePlopAPI) {
   plop.setGenerator("acknowledgements", {

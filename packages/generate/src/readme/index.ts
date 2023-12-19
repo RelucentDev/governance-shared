@@ -8,6 +8,12 @@
  */
 import { NodePlopAPI } from "plop";
 
+/**
+ * Generate a README.md file.
+ *
+ * @since 0.2.0
+ * @author Dom Webber <dom.webber@hotmail.com>
+ */
 export default function readme(plop: NodePlopAPI) {
   plop.setGenerator("readme", {
     description: "Generate an README.md file",

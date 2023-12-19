@@ -8,6 +8,12 @@
  */
 import { NodePlopAPI } from "plop";
 
+/**
+ * Generate an ACKNOWLEDGEMENTS.md file.
+ *
+ * @since 0.0.1
+ * @author Dom Webber <dom.webber@hotmail.com>
+ */
 export default function acknowledgements(plop: NodePlopAPI) {
   plop.setGenerator("acknowledgements", {
     description: "Generate an ACKNOWLEDGEMENTS.md file",

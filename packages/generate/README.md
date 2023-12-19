@@ -2,21 +2,21 @@
 
 ![Relucent Generators Cover Image](cover.png)
 
-Useful templates and generators for Relucent projects.
+Useful templates and generators for Relucent projects.generate
 
-[![@relucent.dev/generators version]][npmjs-package]
+[![@relucent.dev/generate version]][npmjs-package]
 
 [npmjs-package]: https://npmjs.com/@relucent.dev/generators
-[@relucent.dev/generators version]: https://img.shields.io/npm/v/%40relucent.dev/generators
+[@relucent.dev/generate version]: https://img.shields.io/npm/v/%40relucent.dev/generate
 
 ## Usage
 
 ```bash
 # Create an acknowledgements file
-npx @relucent.dev/generators acknowledgements
+npx @relucent.dev/generate acknowledgements
 
 # Optionally, install the package
-npm install @relucent.dev/generators --save-dev # or --global
+npm install @relucent.dev/generate --save-dev # or --global
 ```
 
 ## License

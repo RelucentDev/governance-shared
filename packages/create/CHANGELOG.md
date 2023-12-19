@@ -1,5 +1,16 @@
 # @relucent.dev/create
 
+## 0.2.0
+
+### Minor Changes
+
+- ffc6daa: rename to `@relucent.dev/create`
+- 06581c8: add `README.md` templating and generation
+
+### Patch Changes
+
+- ffc6daa: add jsdoc comments to generator files
+
 ## 0.1.0
 
 ### Minor Changes

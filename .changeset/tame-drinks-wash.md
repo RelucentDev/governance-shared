@@ -1,5 +1,5 @@
 ---
-"@relucent.dev/generate": minor
+"@relucent.dev/create": minor
 ---
 
 add `README.md` templating and generation

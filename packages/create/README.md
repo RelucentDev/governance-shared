@@ -4,19 +4,25 @@
 
 Useful templates and generators for Relucent projects.generate
 
-[![@relucent.dev/generate version]][npmjs-package]
+[![@relucent.dev/create version]][npmjs-package]
 
-[npmjs-package]: https://npmjs.com/@relucent.dev/generators
-[@relucent.dev/generate version]: https://img.shields.io/npm/v/%40relucent.dev/generate
+[npmjs-package]: https://npmjs.com/@relucent.dev/create
+[@relucent.dev/create version]: https://img.shields.io/npm/v/%40relucent.dev/create
 
 ## Usage
 
 ```bash
 # Create an acknowledgements file
-npx @relucent.dev/generate acknowledgements
+npm init @relucent.dev acknowledgements
+
+# Create a readme file
+npm init @relucent.dev readme
+
+# Or, using npx
+npx @relucent.dev/create acknowledgements
 
 # Optionally, install the package
-npm install @relucent.dev/generate --save-dev # or --global
+npm install @relucent.dev/create --save-dev # or --global
 ```
 
 ## License

@@ -1,4 +1,4 @@
-# @relucent.dev/generators
+# @relucent.dev/create
 
 ## 0.1.0
 

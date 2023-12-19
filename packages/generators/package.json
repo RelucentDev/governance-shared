@@ -34,9 +34,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "inquirer": "^9.2.12",
     "minimist": "^1.2.8",
-    "node-plop": "^0.32.0",
     "plop": "^4.0.0",
     "pluralize": "^8.0.0"
   },

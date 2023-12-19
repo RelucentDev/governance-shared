@@ -5,7 +5,7 @@
   "description": "Useful templates for Relucent projects made with PlopJS",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RelucentDev/governance.git",
+    "url": "git+ssh://git@github.com/RelucentDev/governance.git",
     "directory": "packages/generators"
   },
   "homepage": "https://github.com/RelucentDev/governance#readme",

@@ -13,10 +13,10 @@ Useful templates and generators for Relucent projects.generate
 
 ```bash
 # Create an acknowledgements file
-npm init @relucent.dev acknowledgements
+npm init @relucent.dev -- acknowledgements
 
 # Create a readme file
-npm init @relucent.dev readme
+npm init @relucent.dev -- readme
 
 # Or, using npx
 npx @relucent.dev/create acknowledgements

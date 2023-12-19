@@ -1,12 +1,12 @@
 {
-  "name": "@relucent.dev/generators",
+  "name": "@relucent.dev/generate",
   "version": "0.0.3",
   "type": "module",
   "description": "Useful templates and generators for Relucent projects",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/RelucentDev/governance.git",
-    "directory": "packages/generators"
+    "directory": "packages/generate"
   },
   "homepage": "https://github.com/RelucentDev/governance#readme",
   "bugs": {

@@ -18,7 +18,7 @@ npm init @relucent.dev -- acknowledgements
 # Create a readme file
 npm init @relucent.dev -- readme
 
-# Or, using npx
+# Or using npx
 npx @relucent.dev/create acknowledgements
 
 # Optionally, install the package

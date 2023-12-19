@@ -1,5 +1,11 @@
 # @relucent.dev/prettier-config
 
+## 2.0.3
+
+### Patch Changes
+
+- d2adb5b: add directory to `package.json#repository`
+
 ## 2.0.2
 
 ### Patch Changes

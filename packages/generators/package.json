@@ -1,6 +1,6 @@
 {
   "name": "@relucent.dev/generators",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "description": "Useful templates for Relucent projects made with PlopJS",
   "repository": {

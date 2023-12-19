@@ -6,7 +6,7 @@
 
 [gitignore.io]: https://www.gitignore.io/
 
-### Inspiration
+## Inspiration
 
 - [gaiasky/gaiasky][] for the idea of using an `ACKNOWLEDGEMENTS.md` file.
 - [the-guild-org/shared-config][] for some shared configuration inspiration.

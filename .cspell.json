@@ -21,7 +21,8 @@
     "domwebber",
     "disposability",
     "hashbang",
-    "typecheck"
+    "typecheck",
+    "OIDC"
   ],
   "ignoreWords": [
     "wholename",

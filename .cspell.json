@@ -27,7 +27,8 @@
     "goldbergyoni",
     "xcanchal",
     "tomoyukiaota",
-    "OWASP"
+    "OWASP",
+    "plopfile"
   ],
   "ignorePaths": ["**/package*.json"]
 }

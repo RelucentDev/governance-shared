@@ -40,5 +40,9 @@
   },
   "devDependencies": {
     "@types/pluralize": "^0.0.33"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   }
 }

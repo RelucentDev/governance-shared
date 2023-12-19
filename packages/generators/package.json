@@ -22,8 +22,9 @@
   ],
   "keywords": [
     "relucent",
-    "plopjs",
-    "template"
+    "plop",
+    "template",
+    "generator"
   ],
   "scripts": {
     "build": "npm-run-all swc tsc",

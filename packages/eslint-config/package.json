@@ -1,6 +1,6 @@
 {
   "name": "@relucent.dev/eslint-config",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "type": "commonjs",
   "description": "Relucent's Shared ESLint Config",
   "repository": {
@@ -52,7 +52,7 @@
     "eslint-plugin-jsdoc": "^46.9.0"
   },
   "devDependencies": {
-    "@relucent.dev/prettier-config": "^2.0.2",
+    "@relucent.dev/prettier-config": "^2.0.3",
     "@swc/cli": "^0.1.63",
     "@swc/core": "^1.3.96",
     "@types/eslint-config-prettier": "^6.11.3",

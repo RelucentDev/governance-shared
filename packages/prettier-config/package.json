@@ -13,7 +13,8 @@
   },
   "author": "Relucent Ltd <hello@relucent.dev>",
   "license": "LGPL-3.0-or-later",
-  "main": ".prettierrc.json",
+  "main": "index.cjs",
+  "types": "index.d.ts",
   "keywords": [
     "prettier",
     "relucent",

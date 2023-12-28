@@ -19,11 +19,16 @@ Shared Prettier config for Relucent projects.
 or
 
 ```js
-// .prettierrc.mjs
-import relucent from "@relucent.dev/prettier-config" assert { type: "json" };
+// .prettierrc.cjs
+module.exports = require("@relucent.dev/prettier-config");
+```
 
-export default {
-  ...relucent,
+or
+
+```js
+// .prettierrc.cjs
+module.exports = {
+  ...require("@relucent.dev/prettier-config"),
   // Your project specific config here
 };
 ```

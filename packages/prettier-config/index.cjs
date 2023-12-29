@@ -9,6 +9,7 @@
 
 /** @type {import("prettier").Config & import("@trivago/prettier-plugin-sort-imports").PluginConfig} */
 module.exports = {
+  proseWrap: "always",
   importOrder: [
     "",
     "^react(-dom)?$",

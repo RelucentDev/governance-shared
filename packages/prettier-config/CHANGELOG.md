@@ -1,5 +1,11 @@
 # @relucent.dev/prettier-config
 
+## 2.1.2
+
+### Patch Changes
+
+- fe8c661: feat: always enable prose wrapping
+
 ## 2.1.1
 
 ### Patch Changes

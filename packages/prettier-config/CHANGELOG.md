@@ -1,5 +1,11 @@
 # @relucent.dev/prettier-config
 
+## 2.1.1
+
+### Patch Changes
+
+- e34592d: fix: remove types export from package.json when not used
+
 ## 2.1.0
 
 ### Minor Changes

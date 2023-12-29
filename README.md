@@ -24,12 +24,16 @@ practices, resources, and information.
 | [`@relucent.dev/eslint-config`][]   |   ![@relucent.dev/eslint-config version][] |
 | [`@relucent.dev/create`][]          |          ![@relucent.dev/create version][] |
 
-[`@relucent.dev/prettier-config`]: https://npmjs.com/@relucent.dev/prettier-config
-[@relucent.dev/prettier-config version]: https://img.shields.io/npm/v/%40relucent.dev/prettier-config
+[`@relucent.dev/prettier-config`]:
+  https://npmjs.com/@relucent.dev/prettier-config
+[@relucent.dev/prettier-config version]:
+  https://img.shields.io/npm/v/%40relucent.dev/prettier-config
 [`@relucent.dev/eslint-config`]: https://npmjs.com/@relucent.dev/eslint-config
-[@relucent.dev/eslint-config version]: https://img.shields.io/npm/v/%40relucent.dev/eslint-config
+[@relucent.dev/eslint-config version]:
+  https://img.shields.io/npm/v/%40relucent.dev/eslint-config
 [`@relucent.dev/create`]: https://npmjs.com/@relucent.dev/create
-[@relucent.dev/create version]: https://img.shields.io/npm/v/%40relucent.dev/create
+[@relucent.dev/create version]:
+  https://img.shields.io/npm/v/%40relucent.dev/create
 
 ## License
 
@@ -39,7 +43,8 @@ GNU LGPLv3 &copy; 2023 Relucent Ltd.
 
 **Relucent Ltd**: <https://relucent.dev> <<hello@relucent.dev>>
 
-**Project Manager**: Dom Webber <https://domwebber.dev> <<dom.webber@hotmail.com>>
+**Project Manager**: Dom Webber <https://domwebber.dev>
+<<dom.webber@hotmail.com>>
 
 > See [Acknowledgements](ACKNOWLEDGEMENTS.md) for thanks and sources.
 

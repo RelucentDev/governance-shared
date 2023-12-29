@@ -7,7 +7,8 @@ Useful templates and generators for Relucent projects.generate
 [![@relucent.dev/create version]][npmjs-package]
 
 [npmjs-package]: https://npmjs.com/@relucent.dev/create
-[@relucent.dev/create version]: https://img.shields.io/npm/v/%40relucent.dev/create
+[@relucent.dev/create version]:
+  https://img.shields.io/npm/v/%40relucent.dev/create
 
 ## Usage
 
@@ -33,4 +34,5 @@ GNU LGPLv3 &copy; 2023 Relucent Ltd
 
 **Relucent Ltd**: <https://relucent.dev> <<hello@relucent.dev>>
 
-**Project Manager**: Dom Webber <https://domwebber.dev> <<dom.webber@hotmail.com>>
+**Project Manager**: Dom Webber <https://domwebber.dev>
+<<dom.webber@hotmail.com>>

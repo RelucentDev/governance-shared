@@ -19,7 +19,8 @@ starting point for understanding the most common software errors.
 
 ### 1.4. Directory Structure
 
-See [this StackExchange answer](https://softwareengineering.stackexchange.com/a/392461).
+See
+[this StackExchange answer](https://softwareengineering.stackexchange.com/a/392461).
 
 ### 1.5. Scripts (`package.json`, `composer.json`, etc.)
 
@@ -51,10 +52,10 @@ quickly identify the purpose of each script.
 }
 ```
 
-As a quick reference, the naming follows the format of
-`<Task>(:<Scope>)*` where, unless inferred by the alias's
-naming (like in the case of `build`) the base alias (such as `lint`) should not
-write or fix anything, and should only check for errors.
+As a quick reference, the naming follows the format of `<Task>(:<Scope>)*`
+where, unless inferred by the alias's naming (like in the case of `build`) the
+base alias (such as `lint`) should not write or fix anything, and should only
+check for errors.
 
 ### 1.6. `ACKNOWLEDGEMENTS.md`
 
@@ -126,7 +127,8 @@ We use the following templates when structuring the comments:
 
 ### 2.1. JavaScript Testing Best Practices
 
-The guidance of [`goldbergyoni/javascript-testing-best-practices`](https://github.com/goldbergyoni/javascript-testing-best-practices)
+The guidance of
+[`goldbergyoni/javascript-testing-best-practices`](https://github.com/goldbergyoni/javascript-testing-best-practices)
 sets out a general style and convention for testing JavaScript code. This
 includes naming conventions, categorisation of tests, and certain stylistic
 patterns.

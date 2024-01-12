@@ -14,7 +14,7 @@ import title from "title";
 
 export default function (plop: NodePlopAPI) {
   // Plop Config
-  plop.setWelcomeMessage("@relucent.dev/generators");
+  plop.setWelcomeMessage("@relucent.dev/create");
   plop.setHelper("pluralize", (text: string) => pluralize(text));
   plop.setHelper("titleCase", (text: string) => title(text));
   plop.setHelper("inArray", (array: string[], value: string) =>

@@ -22,7 +22,8 @@
     "disposability",
     "hashbang",
     "typecheck",
-    "OIDC"
+    "OIDC",
+    "interop"
   ],
   "ignoreWords": [
     "wholename",
@@ -35,7 +36,8 @@
     "plopfile",
     "inquirier",
     "esbenp",
-    "dbaeumer"
+    "dbaeumer",
+    "tsup"
   ],
   "ignorePaths": [
     "**/package*.json",

@@ -1,5 +1,11 @@
 # @relucent.dev/create
 
+## 0.2.1
+
+### Patch Changes
+
+- 46bfa5c: use `tsup` for CJS+ESM interop
+
 ## 0.2.0
 
 ### Minor Changes

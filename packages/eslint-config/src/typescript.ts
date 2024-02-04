@@ -6,7 +6,7 @@
  * @author    Relucent Ltd <hello@relucent.dev>
  * @see       https://relucent.dev
  */
-import baseConfig from ".";
+import baseConfig from "./index.js";
 import typescriptESLint from "@typescript-eslint/eslint-plugin";
 import tsParser from "@typescript-eslint/parser";
 import { Linter, ESLint } from "eslint";

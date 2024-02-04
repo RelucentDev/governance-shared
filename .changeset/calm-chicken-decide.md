@@ -3,4 +3,4 @@
 "@relucent.dev/eslint-config": patch
 ---
 
-use `tsup` for CJS+ESM interpo
+use `tsup` for CJS+ESM interop

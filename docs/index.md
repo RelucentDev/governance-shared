@@ -47,8 +47,8 @@ quickly identify the purpose of each script.
     "action:environment": "command",
 
     // and using aliasing to create a shorthands for lifecycle scripts
-    "build:environment": "npm-run-all action:environment"
-  }
+    "build:environment": "npm-run-all action:environment",
+  },
 }
 ```
 

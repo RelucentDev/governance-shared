@@ -6,7 +6,7 @@
  * @author    Relucent Ltd <hello@relucent.dev>
  * @see       https://relucent.dev
  */
-import { NodePlopAPI } from "plop";
+import type { NodePlopAPI } from "plop";
 
 /**
  * Generate an ACKNOWLEDGEMENTS.md file.

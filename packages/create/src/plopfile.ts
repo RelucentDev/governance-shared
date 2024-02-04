@@ -8,7 +8,7 @@
  */
 import acknowledgements from "./acknowledgements/index.js";
 import readme from "./readme/index.js";
-import { NodePlopAPI } from "plop";
+import type { NodePlopAPI } from "plop";
 import pluralize from "pluralize";
 import title from "title";
 

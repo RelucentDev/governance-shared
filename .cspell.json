@@ -37,7 +37,8 @@
     "inquirier",
     "esbenp",
     "dbaeumer",
-    "tsup"
+    "tsup",
+    "npmjs"
   ],
   "ignorePaths": [
     "**/package*.json",

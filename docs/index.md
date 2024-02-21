@@ -20,7 +20,7 @@ starting point for understanding the most common software errors.
 ### 1.4. Directory Structure
 
 See
-[this StackExchange answer](https://softwareengineering.stackexchange.com/a/392461).
+[this StackExchange answer](https://softwareengineering.stackexchange.com/questions/86914/whats-the-best-structure-for-a-repository/392461#392461).
 
 ### 1.5. Scripts (`package.json`, `composer.json`, etc.)
 

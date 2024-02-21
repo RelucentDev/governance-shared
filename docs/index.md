@@ -102,20 +102,19 @@ We use the following templates when structuring the comments:
 /**
  * Project Name.
  *
- * @since     x.x.x
- * @copyright 2023 Author/Owner
+ * @copyright 2024 Author/Owner
  * @author    Author <hello@example.com>
  * @see       https://example.com
  */
 ```
 
 ```css
-/*! Project Name | (c) 2023 Author/Owner | https://example.com */
+/*! Project Name | (c) 2024 Author/Owner | https://example.com */
 ```
 
 ```bash
 # Project Name.
-# (c) 2023 Author/Owner
+# (c) 2024 Author/Owner
 # https://example.com
 ```
 

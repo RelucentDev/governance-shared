@@ -12,6 +12,7 @@ module.exports = {
   proseWrap: "always",
   importOrder: [
     "",
+    "^@?jest(/.*|$)",
     "^react(-dom)?$",
     "^next(/.*|$)",
     "<THIRD_PARTY_MODULES>",

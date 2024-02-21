@@ -1,7 +1,10 @@
 {
   "ignorePatterns": [
     {
-      "pattern": "^https?://npmjs.com"
+      "pattern": "^https://npmjs.com"
+    },
+    {
+      "pattern": "^https://.*.stackexchange.com"
     }
   ]
 }

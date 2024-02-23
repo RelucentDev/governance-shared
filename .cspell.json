@@ -38,7 +38,8 @@
     "esbenp",
     "dbaeumer",
     "tsup",
-    "npmjs"
+    "npmjs",
+    "lycheeverse"
   ],
   "ignorePaths": [
     "**/package*.json",

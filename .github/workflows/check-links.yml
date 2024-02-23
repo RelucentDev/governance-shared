@@ -12,7 +12,7 @@ on:
     inputs:
       globs:
         type: string
-        required: true
+        required: false
         description: "Globs to check for broken links"
         default: .
 

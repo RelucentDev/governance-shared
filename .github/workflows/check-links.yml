@@ -1,0 +1,31 @@
+# Relucent Governance.
+# (c) 2023 Relucent Ltd
+# https://relucent.dev
+
+# Note: this is a shared pipeline used by other repositories.
+# Docs: https://docs.github.com/en/actions/using-workflows/reusing-workflows
+
+name: Check Links
+
+on:
+  workflow_call:
+    inputs:
+      globs:
+        type: string
+        required: true
+        description: "Globs to check for broken links"
+        default: "./**/*.md"
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v1.5.1
+        with:
+          fail: true
+          args:
+            --no-progress ${{inputs.globs}} --exclude-path package.json
+            --exclude-path node_modules
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

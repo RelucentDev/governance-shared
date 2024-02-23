@@ -11,6 +11,10 @@ jobs:
     uses: ./.github/workflows/lint.yml
     secrets: inherit
 
+  check-links:
+    uses: ./.github/workflows/check-links.yml
+    secrets: inherit
+
   release:
     needs:
       - lint
@@ -24,7 +28,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: ./.github/workflows/check-links.yml
       - uses: actions/setup-node@v4
       - uses: actions/cache@v3
         id: cache-modules

@@ -24,9 +24,8 @@ jobs:
       - uses: lycheeverse/lychee-action@v1.5.1
         with:
           fail: true
-          args: |
-            --no-progress ${{inputs.globs}} \
-            --exclude-path package.json \
+          args:
+            --no-progress ${{inputs.globs}} --exclude-path package.json
             --exclude-path node_modules
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

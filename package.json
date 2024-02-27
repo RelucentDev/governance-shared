@@ -19,7 +19,8 @@
     "prerelease": "npm-run-all build",
     "prettier": "prettier --check .",
     "prettier:dev": "prettier --write .",
-    "release": "changeset publish"
+    "release": "changeset publish",
+    "snapshot": "changeset publish --no-git-tag --snapshot next"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",

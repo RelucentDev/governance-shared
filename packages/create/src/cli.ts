@@ -3,7 +3,6 @@
 /**
  * Relucent Generators.
  *
- * @since     1.0.0
  * @copyright 2023 Relucent Ltd
  * @author    Relucent Ltd <hello@relucent.dev>
  * @see       https://relucent.dev

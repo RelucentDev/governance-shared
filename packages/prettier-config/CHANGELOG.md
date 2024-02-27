@@ -1,5 +1,11 @@
 # @relucent.dev/prettier-config
 
+## 2.1.3
+
+### Patch Changes
+
+- 8837010: refactor: bump jest packages in import order
+
 ## 2.1.2
 
 ### Patch Changes

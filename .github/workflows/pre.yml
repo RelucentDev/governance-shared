@@ -18,6 +18,7 @@ jobs:
   release:
     needs:
       - lint
+      - check-links
     runs-on: ubuntu-latest
     permissions:
       contents: write # to be able to publish a GitHub release

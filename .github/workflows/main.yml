@@ -1,7 +1,6 @@
 name: Check Main
+
 on:
-  schedule:
-    - cron: "30 8 * * 1"
   push:
     branches:
       - main
@@ -29,7 +28,7 @@ jobs:
         with:
           fetch-depth: 0
       - uses: actions/setup-node@v4
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         id: cache-modules
         with:
           path: node_modules

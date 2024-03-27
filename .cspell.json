@@ -2,6 +2,7 @@
   "version": "0.2",
   "language": "en-gb",
   "enableGlobDot": true,
+  "useGitignore": true,
   "dictionaries": [
     "softwareTerms",
     "typescript",
@@ -33,13 +34,15 @@
     "xcanchal",
     "tomoyukiaota",
     "OWASP",
-    "plopfile",
-    "inquirier",
     "esbenp",
     "dbaeumer",
-    "tsup",
     "npmjs",
-    "lycheeverse"
+    "lycheeverse",
+    "creativecommons",
+    "synched",
+    "Generis",
+    "sublicensable",
+    "waivable"
   ],
   "ignorePaths": [
     "**/package*.json",
@@ -48,6 +51,7 @@
     "**/.env*",
     "!**/.env.example",
     "**/dist/**/*",
-    "**/*.log"
+    "**/*.log",
+    "**/node_modules/**/*",
   ]
 }

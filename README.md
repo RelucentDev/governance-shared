@@ -2,6 +2,8 @@
 
 ![Relucent Resources, Standards & Best Practices Cover Image](cover.png)
 
+> See [`docs/`](docs/) for resources, standards, and best practices information.
+
 This repository collects and sets out best practices and standards for software
 development projects. This repository and the main ideas and resources that it
 collects are intended to be project-agnostic, meaning that overall there is
@@ -14,26 +16,23 @@ practices, resources, and information.
 > you_. If you have any suggestions or ideas, please feel free to open an issue
 > or pull request.
 
-## Content
+## Related Resources
 
-> See [`docs/`](docs/) for resources, standards, and best practices information.
+The following packages and repositories compliment the documentation in this
+repository.
 
-|                                     |                                            |
-| :---------------------------------- | -----------------------------------------: |
-| [`@relucent.dev/prettier-config`][] | ![@relucent.dev/prettier-config version][] |
-| [`@relucent.dev/eslint-config`][]   |   ![@relucent.dev/eslint-config version][] |
-| [`@relucent.dev/create`][]          |          ![@relucent.dev/create version][] |
+|                                                                   |
+| ----------------------------------------------------------------: |
+| [![@relucent.dev/prettier-config version][]][prettier-config-npm] |
+|     [![@relucent.dev/eslint-config version][]][eslint-config-npm] |
 
-[`@relucent.dev/prettier-config`]:
+[prettier-config-npm]:
   https://npmjs.com/@relucent.dev/prettier-config
 [@relucent.dev/prettier-config version]:
-  https://img.shields.io/npm/v/%40relucent.dev/prettier-config
-[`@relucent.dev/eslint-config`]: https://npmjs.com/@relucent.dev/eslint-config
+  https://img.shields.io/npm/v/%40relucent.dev/prettier-config?label=%40relucent.dev%2Fcreate
+[eslint-config-npm]: https://npmjs.com/@relucent.dev/eslint-config
 [@relucent.dev/eslint-config version]:
-  https://img.shields.io/npm/v/%40relucent.dev/eslint-config
-[`@relucent.dev/create`]: https://npmjs.com/@relucent.dev/create
-[@relucent.dev/create version]:
-  https://img.shields.io/npm/v/%40relucent.dev/create
+  https://img.shields.io/npm/v/%40relucent.dev/eslint-config?label=%40relucent.dev%2Fcreate
 
 ## License
 
@@ -47,27 +46,3 @@ GNU LGPLv3 &copy; 2023 Relucent Ltd.
 <<dom.webber@hotmail.com>>
 
 > See [Acknowledgements](ACKNOWLEDGEMENTS.md) for thanks and sources.
-
-```js
-/**
- * Relucent Governance.
- *
- * @copyright 2023 Relucent Ltd
- * @author    Relucent Ltd <hello@relucent.dev>
- * @see       https://relucent.dev
- */
-```
-
-```css
-/*! Relucent Governance | (c) 2023 Relucent Ltd | https://relucent.dev */
-```
-
-```bash
-# Relucent Governance.
-# (c) 2023 Relucent Ltd
-# https://relucent.dev
-```
-
-```html
-<!-- Relucent Governance | (c) 2023 Relucent Ltd | https://relucent.dev -->
-```

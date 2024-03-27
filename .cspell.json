@@ -53,6 +53,6 @@
     "!**/.env.example",
     "**/dist/**/*",
     "**/*.log",
-    "**/node_modules/**/*",
+    "**/node_modules/**/*"
   ]
 }

@@ -42,7 +42,8 @@
     "synched",
     "Generis",
     "sublicensable",
-    "waivable"
+    "waivable",
+    "Fprettier"
   ],
   "ignorePaths": [
     "**/package*.json",

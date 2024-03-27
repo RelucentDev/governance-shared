@@ -12,7 +12,9 @@ projects.
 [gh-community-health]:
   https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file
 
-## 1.1. `ACKNOWLEDGEMENTS.md`
+## 1. Additional Community Health Files
+
+### 1.1. `ACKNOWLEDGEMENTS.md`
 
 We include an `ACKNOWLEDGEMENTS.md` file in the root of each project to
 acknowledge the contributions of others, and to provide a list of sources of

@@ -7,22 +7,12 @@
 The principles set out by the [Twelve Factor App](https://12factor.net/) are a
 great starting point for building modern, scalable, maintainable applications.
 
-### 1.2. OWASP Top 10
-
-The [OWASP Top 10](https://owasp.org/www-project-top-ten/) is a great starting
-point for understanding the most common security risks in web applications.
-
-### 1.3. SANS Top 25
-
-The [SANS Top 25](https://www.sans.org/top25-software-errors/) is a great
-starting point for understanding the most common software errors.
-
-### 1.4. Directory Structure
+### 1.2. Directory Structure
 
 See
 [this StackExchange answer](https://softwareengineering.stackexchange.com/questions/86914/whats-the-best-structure-for-a-repository/392461#392461).
 
-### 1.5. Scripts (`package.json`, `composer.json`, etc.)
+### 1.3. Scripts (`package.json`, `composer.json`, etc.)
 
 We use an aliasing convention for scripts in `package.json` and `composer.json`
 files. This allows us to use the same script names across projects, and to
@@ -56,44 +46,3 @@ As a quick reference, the naming follows the format of `<Task>(:<Scope>)*`
 where, unless inferred by the alias's naming (like in the case of `build`) the
 base alias (such as `lint`) should not write or fix anything, and should only
 check for errors.
-
-### 1.6. File Headers & Signature Comments
-
-Supporting clear project authorship, we include file signature comments where
-possible to help identify the project, file, and authorship.
-
-We use the following templates when structuring the comments:
-
-```js
-/**
- * Project Name.
- *
- * @copyright 2024 Author/Owner
- * @author    Author <hello@example.com>
- * @see       https://example.com
- */
-```
-
-```css
-/*! Project Name | (c) 2024 Author/Owner | https://example.com */
-```
-
-```bash
-# Project Name.
-# (c) 2024 Author/Owner
-# https://example.com
-```
-
-```html
-<!-- Project Name | (c) 2023 Author/Owner | https://example.com -->
-```
-
-## 2. Testing
-
-### 2.1. JavaScript Testing Best Practices
-
-The guidance of
-[`goldbergyoni/javascript-testing-best-practices`](https://github.com/goldbergyoni/javascript-testing-best-practices)
-sets out a general style and convention for testing JavaScript code. This
-includes naming conventions, categorisation of tests, and certain stylistic
-patterns.

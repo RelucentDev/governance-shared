@@ -7,7 +7,7 @@ possible to help identify the project, file, and authorship.
 
 We use the following templates when structuring the comments:
 
-### 1.1. JSDoc
+### 1.1. JSDoc, PHPDoc
 
 ```js
 /**
@@ -36,5 +36,13 @@ We use the following templates when structuring the comments:
 ### 1.4. HTML, XML
 
 ```html
-<!-- Project Name | (c) 2023 Author/Owner | https://example.com -->
+<!-- Project Name | (c) 2024 Author/Owner | https://example.com -->
+```
+
+### 1.5. Go
+
+```go
+// Project Name.
+// (c) 2024 Author/Owner
+// https://example.com
 ```

@@ -57,41 +57,7 @@ where, unless inferred by the alias's naming (like in the case of `build`) the
 base alias (such as `lint`) should not write or fix anything, and should only
 check for errors.
 
-### 1.6. `ACKNOWLEDGEMENTS.md`
-
-We include an `ACKNOWLEDGEMENTS.md` file in the root of each project to
-acknowledge the contributions of others, and to provide a list of sources of
-inspiration and guidance.
-
-```markdown
-# Acknowledgements
-
-## Sources
-
-- [general source][] for a reason.
-
-[general source]: https://example.com
-
-### Source Categorisation
-
-- [another source][] for another reason.
-
-[another source]: https://example.com
-
-## Resources
-
-- [general resource][] for a reason.
-
-[general resource]: https://example.com
-
-### Resource Categorisation
-
-- [another resource][] for another reason.
-
-[another resource]: https://example.com
-```
-
-### 1.7. File Signature Comments
+### 1.6. File Headers & Signature Comments
 
 Supporting clear project authorship, we include file signature comments where
 possible to help identify the project, file, and authorship.

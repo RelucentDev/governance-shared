@@ -1,14 +1,16 @@
 # Community Health Files
 
 Based on the needs and purpose of different projects and repositories, it is
-advisable to look through [GitHub's Community Health Files Guidance][gh-community-health]
-to determine which files are necessary for the project. Organisation-level
-community health files may also be used where relevant.
+advisable to look through [GitHub's Community Health Files
+Guidance][gh-community-health] to determine which files are necessary for the
+project. Organisation-level community health files may also be used where
+relevant.
 
 Additionally, this document describes some of the files that we use in our
 projects.
 
-[gh-community-health]: https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file
+[gh-community-health]:
+  https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file
 
 ## 1.1. `ACKNOWLEDGEMENTS.md`
 

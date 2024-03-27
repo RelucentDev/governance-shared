@@ -97,12 +97,3 @@ The guidance of
 sets out a general style and convention for testing JavaScript code. This
 includes naming conventions, categorisation of tests, and certain stylistic
 patterns.
-
-## 3. Infrastructure as Code
-
-### 3.1. Google Cloud Platform's Terraform Best Practices Guide
-
-[GCP's Terraform guide](https://cloud.google.com/docs/terraform/best-practices-for-terraform)
-for effective use of Terraform. GCP's guidance sets out a general style and
-convention for resource naming, module structure, and variable use, in addition
-to additional GCP-specific guidance.

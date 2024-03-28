@@ -13,7 +13,7 @@
   "devDependencies": {
     "@relucent.dev/prettier-config": "^2.1.9",
     "alex": "^11.0.1",
-    "cspell": "^8.1.0",
+    "cspell": "^8.6.1",
     "jscpd": "^3.5.10",
     "markdown-link-check": "^3.11.2",
     "markdownlint-cli": "^0.39.0",

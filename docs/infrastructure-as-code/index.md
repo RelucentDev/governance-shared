@@ -15,7 +15,7 @@ The use IAC brings the following benefits:
 - Increase in speed of deployments
 - Reduce errors
 - Improve infrastructure consistency
-- Eliminate configuration drift (Redhat.com, 2024)
+- Eliminate configuration drift (Redhat.com, 2024)[^2]
 
 [^1]:
     HashiCorp (2023). _What is infrastructure as code and why is it important?_
@@ -26,5 +26,5 @@ The use IAC brings the following benefits:
 [^2]:
     Redhat.com. (2024). What is Infrastructure as Code (IaC)? [online] Available
     at:
-    https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac
+    <https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac>
     [Accessed 27 Mar. 2024].

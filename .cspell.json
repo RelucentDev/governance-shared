@@ -43,7 +43,8 @@
     "Generis",
     "sublicensable",
     "waivable",
-    "Fprettier"
+    "Fprettier",
+    "Cloudposse"
   ],
   "ignorePaths": [
     "**/package*.json",

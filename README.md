@@ -28,7 +28,7 @@ repository.
 
 [prettier-config-npm]: https://npmjs.com/@relucent.dev/prettier-config
 [@relucent.dev/prettier-config version]:
-  https://img.shields.io/npm/v/%40relucent.dev/prettier-config?label=%40relucent.dev%"2Fprettier-config
+  https://img.shields.io/npm/v/%40relucent.dev/prettier-config?label=%40relucent.dev%2Fprettier-config
 [eslint-config-npm]: https://npmjs.com/@relucent.dev/eslint-config
 [@relucent.dev/eslint-config version]:
   https://img.shields.io/npm/v/%40relucent.dev/eslint-config?label=%40relucent.dev%2Feslint-config

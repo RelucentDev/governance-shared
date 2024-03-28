@@ -18,7 +18,7 @@ projects.
 
 We include an `ACKNOWLEDGEMENTS.md` file in the root of each project to
 acknowledge the contributions of others, and to provide a list of sources of
-inspiration and guidance that aren't otherwise obvious in the project.
+inspiration and guidance that aren't otherwise clear in the project.
 
 ```markdown
 # Acknowledgements

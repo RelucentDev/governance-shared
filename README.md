@@ -35,7 +35,7 @@ repository.
 
 ## License
 
-GNU LGPLv3 &copy; 2023 Relucent Ltd.
+CC-BY-4.0 &copy; 2023 Relucent Ltd.
 
 ### Contact
 

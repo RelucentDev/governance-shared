@@ -6,6 +6,10 @@ on:
       - main
 
 jobs:
+  lint:
+    uses: ./.github/workflows/lint.yml
+    secrets: inherit
+
   check-links:
     uses: ./.github/workflows/check-links.yml
     secrets: inherit

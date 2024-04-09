@@ -16,3 +16,8 @@ starting point for understanding the most common software errors.
 
 The [CWE Records](https://cwe.mitre.org/) are a community-developed list of
 Software and Hardware weaknesses that can become vulnerabilities.
+
+### 1.4. The CVE Program
+
+The [CVE Program](https://www.cve.org/) intends to identity, define, and
+catalog publically disclosed cybersecurity vulnerabilities.

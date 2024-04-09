@@ -11,3 +11,8 @@ point for understanding the most common security risks in web applications.
 
 The [SANS Top 25](https://www.sans.org/top25-software-errors/) is a great
 starting point for understanding the most common software errors.
+
+### 1.3. Common Weakness Enumeration
+
+The [CWE Records](https://cwe.mitre.org/) are a community-developed list of
+Software and Hardware weaknesses that can become vulnerabilities.

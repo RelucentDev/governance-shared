@@ -1,4 +1,4 @@
-# Community Health Files
+# Community Health
 
 Based on the needs and purpose of different projects and repositories, it is
 advisable to look through [GitHub's Community Health Files
@@ -12,9 +12,17 @@ projects.
 [gh-community-health]:
   https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file
 
-## 1. Additional Community Health Files
+## 1. Labels
 
-### 1.1. `ACKNOWLEDGEMENTS.md`
+See the following resources for advice and guidance:
+
+- <https://rewind.com/blog/best-practices-for-using-github-issues/>
+- <https://seantrane.com/posts/logical-colorful-github-labels-18230/>
+- <https://medium.com/@dave_lunny/sane-github-labels-c5d2e6004b63>
+
+## 2. Additional Community Health Files
+
+### 2.1. `ACKNOWLEDGEMENTS.md`
 
 We include an `ACKNOWLEDGEMENTS.md` file in the root of each project to
 acknowledge the contributions of others, and to provide a list of sources of

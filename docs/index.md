@@ -7,29 +7,7 @@
 The principles set out by the [Twelve Factor App](https://12factor.net/) are a
 great starting point for building modern, scalable, maintainable applications.
 
-### 1.2. Directory Structure
-
-See
-[this StackExchange answer](https://softwareengineering.stackexchange.com/questions/86914/whats-the-best-structure-for-a-repository/392461#392461).
-
-```txt
-.github/
-.gitlab/
-- ci/
-docs/
-infrastructure/
-- environments/
-- modules/
-- scripts/
-- templates/
-public/
-scripts/
-src/
-LICENSE
-README.md
-```
-
-### 1.3. Scripts (`package.json`, `composer.json`, etc.)
+### 1.2. Scripts (`package.json`, `composer.json`, etc.)
 
 We use an aliasing convention for scripts in `package.json` and `composer.json`
 files. This allows us to use the same script names across projects, and to

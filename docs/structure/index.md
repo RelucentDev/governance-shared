@@ -25,3 +25,4 @@ README.md
 
 - [StackExchange Answer](https://softwareengineering.stackexchange.com/questions/86914/whats-the-best-structure-for-a-repository/392461#392461)
 - [Singapore Government Development Starter Kit Folder Structure](https://start.open.gov.sg/docs/concepts/folder-structure)
+- [entrptaher/feature-based-prisma-structure on GitHub](https://github.com/entrptaher/feature-based-prisma-structure/blob/master/docs/project-structure.md)

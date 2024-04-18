@@ -20,7 +20,7 @@ Software and Hardware weaknesses that can become vulnerabilities.
 ### 1.4. The CVE Program
 
 The [CVE Program](https://www.cve.org/) intends to identity, define, and catalog
-publically disclosed cybersecurity vulnerabilities.
+publicly disclosed cybersecurity vulnerabilities.
 
 ## 2. Best Practices and Recommendations
 

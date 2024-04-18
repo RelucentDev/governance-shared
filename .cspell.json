@@ -4,6 +4,7 @@
   "enableGlobDot": true,
   "useGitignore": true,
   "dictionaries": [
+    "en_US",
     "softwareTerms",
     "typescript",
     "node",
@@ -44,7 +45,11 @@
     "sublicensable",
     "waivable",
     "Fprettier",
-    "Cloudposse"
+    "Cloudposse",
+    "defense",
+    "EFF",
+    "securityinabox",
+    "entrptaher"
   ],
   "ignorePaths": [
     "**/package*.json",

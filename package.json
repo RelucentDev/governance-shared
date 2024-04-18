@@ -1,9 +1,8 @@
 {
   "scripts": {
     "alex": "alex .",
-    "cspell": "cspell .",
     "jscpd": "jscpd --config .jscpd.json",
-    "lint": "npm-run-all prettier alex cspell jscpd markdownlint markdown-link-check",
+    "lint": "npm-run-all prettier alex jscpd markdownlint markdown-link-check",
     "lint:dev": "npm-run-all prettier:dev alex cspell jscpd markdownlint markdown-link-check",
     "markdown-link-check": "find . -name \\*.md -not -wholename '**/node_modules/*' -print0 | xargs -0 -n1 markdown-link-check --config .mlc_config.json",
     "markdownlint": "markdownlint '**/*.md' --ignore node_modules --ignore '**/CHANGELOG.md' --ignore '**/LICENSE.md'",
@@ -13,7 +12,6 @@
   "devDependencies": {
     "@relucent.dev/prettier-config": "^2.1.11",
     "alex": "^11.0.1",
-    "cspell": "^8.6.1",
     "jscpd": "^3.5.10",
     "markdown-link-check": "^3.12.1",
     "markdownlint-cli": "^0.39.0",

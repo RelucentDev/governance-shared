@@ -8,8 +8,10 @@ inspiration on such structure decisions.
 
 ```txt
 .github/
+- CODEOWNERS
 .gitlab/
 - ci/
+- CODEOWNERS
 docs/
 infrastructure/
 - environments/
@@ -20,6 +22,7 @@ public/
 scripts/
 src/
 LICENSE
+ACKNOWLEDGEMENTS.md
 README.md
 ```
 

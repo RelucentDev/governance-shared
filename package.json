@@ -10,7 +10,7 @@
     "prettier:dev": "prettier --write ."
   },
   "devDependencies": {
-    "@relucent.dev/prettier-config": "^2.1.11",
+    "@relucent.dev/prettier-config": "^2.2.1",
     "alex": "^11.0.1",
     "jscpd": "^3.5.10",
     "markdown-link-check": "^3.12.1",

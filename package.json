@@ -2,7 +2,7 @@
   "scripts": {
     "alex": "alex .",
     "lint": "npm-run-all prettier alex markdownlint",
-    "lint:dev": "npm-run-all prettier:dev alex cspell markdownlint",
+    "lint:dev": "npm-run-all prettier:dev alex markdownlint",
     "markdownlint": "markdownlint '**/*.md' --ignore node_modules --ignore '**/CHANGELOG.md' --ignore '**/LICENSE.md'",
     "prettier": "prettier --check .",
     "prettier:dev": "prettier --write ."
